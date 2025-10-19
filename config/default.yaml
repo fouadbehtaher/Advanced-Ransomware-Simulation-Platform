@@ -1,0 +1,51 @@
+# Sample ARSP Configuration File
+# Copy this file and customize for your needs
+
+# Simulation settings
+simulation:
+  mode: isolated              # Execution mode: isolated, controlled
+  sandbox_path: /tmp/arsp_sandbox
+  max_file_size_mb: 100
+  timeout_seconds: 300
+
+# Security settings
+security:
+  enable_network_isolation: true
+  enable_filesystem_isolation: true
+  enable_process_monitoring: true
+  allowed_operations:
+    - encrypt
+    - decrypt
+    - enumerate
+    - exfiltrate
+
+# Monitoring configuration
+monitoring:
+  log_level: INFO            # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_path: ./logs
+  enable_detailed_logging: true
+  enable_metrics_collection: true
+
+# Analysis configuration
+analysis:
+  enable_behavioral_analysis: true
+  enable_static_analysis: false
+  output_path: ./analysis_results
+
+# Reporting configuration
+reporting:
+  format: json               # json, text, html
+  enable_auto_report: true
+  output_path: ./reports
+
+# Database configuration (optional)
+database:
+  type: sqlite               # sqlite, postgresql, mysql
+  path: ./data/arsp.db
+
+# API configuration (optional)
+api:
+  enabled: false
+  host: 127.0.0.1
+  port: 8000
+  key: your-secret-key-here

@@ -1,0 +1,44 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+pyyaml>=6.0
+click>=8.1.0
+colorama>=0.4.6
+tabulate>=0.9.0
+
+# Cryptography
+cryptography>=41.0.0
+pycryptodome>=3.19.0
+
+# Monitoring & Analysis
+psutil>=5.9.0
+watchdog>=3.0.0
+py-cpuinfo>=9.0.0
+
+# File Operations
+pathlib>=1.0.1
+humanize>=4.9.0
+
+# Networking (for controlled simulation)
+requests>=2.31.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.1.0
+pylint>=3.0.0
+mypy>=1.7.0
+
+# Documentation
+sphinx>=7.2.0
+sphinx-rtd-theme>=2.0.0
+
+# Security Analysis
+bandit>=1.7.5
+safety>=2.3.5

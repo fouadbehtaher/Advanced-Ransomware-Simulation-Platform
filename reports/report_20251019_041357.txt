@@ -1,0 +1,35 @@
+================================================================================
+ADVANCED RANSOMWARE SIMULATION PLATFORM - REPORT
+================================================================================
+
+Generated: 2025-10-19T04:13:57.749492
+Platform Version: 0.1.0
+
+SIMULATION RESULTS
+--------------------------------------------------------------------------------
+Scenario: Example Encryption
+Type: encryption
+Status: completed
+Duration: 0.00 seconds
+
+Steps Executed: 3
+  1. enumerate_files - success
+  2. encrypt_files - success
+  3. create_ransom_note - success
+
+BEHAVIORAL ANALYSIS
+--------------------------------------------------------------------------------
+Risk Level: MEDIUM
+Risk Score: 40/100
+
+Behavioral Patterns Detected: 2
+  - File encryption activity detected (Severity: high)
+  - System/file enumeration detected (Severity: medium)
+
+RECOMMENDATIONS:
+  1. Implement file integrity monitoring and backup solutions
+  2. Deploy anti-ransomware solutions with behavioral detection
+  3. Implement least privilege access controls
+  4. Enable detailed audit logging for file and system access
+
+================================================================================

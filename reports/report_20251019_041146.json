@@ -1,0 +1,11 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-10-19T04:11:46.685313",
+    "platform_version": "0.1.0",
+    "report_type": "simulation_analysis"
+  },
+  "simulation": {
+    "scenario_name": "test",
+    "status": "completed"
+  }
+}
